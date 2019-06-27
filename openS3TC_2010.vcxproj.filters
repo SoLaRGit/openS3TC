@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="openS3TC.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="openS3TC_DXT5.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="openS3TC_DXT1.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="openS3TC_DXT3.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CSTypes.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="openS3TC_DXT5.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="openS3TC_DXT1.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="openS3TC.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>version</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="openS3TC_DXT3.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="MakeVersion.h">
+      <Filter>version</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="openS3TC.def">
+      <Filter>source</Filter>
+    </None>
+    <None Include="makeversion.exe">
+      <Filter>version</Filter>
+    </None>
+    <None Include="MakeVersion.cmd">
+      <Filter>version</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4baa73ba-cb96-4dcd-a12e-062b05df5285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="version">
+      <UniqueIdentifier>{139317af-d423-4a5a-b4fd-fd22024e4220}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="openS3TC.rc" />
+  </ItemGroup>
+</Project>

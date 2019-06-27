@@ -1,0 +1,24 @@
+;
+; openS3TC.def : declares the module parameters (exports)
+;
+LIBRARY "openS3TC.dll"
+;
+EXPORTS
+  ;
+  ; openS3TC_DXT1.cpp
+  ;
+  DXT1ReleaseLUTs                 PRIVATE
+  DXT1SetOutputPixelFormat        PRIVATE
+  DXT1Decompress                  PRIVATE
+  ;
+  ; openS3TC_DXT3.cpp
+  ;
+  DXT3ReleaseLUTs                 PRIVATE
+  DXT3SetOutputPixelFormat        PRIVATE
+  DXT3Decompress                  PRIVATE
+  ;
+  ; openS3TC_DXT5.cpp
+  ;
+  DXT5ReleaseLUTs                 PRIVATE
+  DXT5SetOutputPixelFormat        PRIVATE
+  DXT5Decompress                  PRIVATE
